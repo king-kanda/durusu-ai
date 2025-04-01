@@ -1,0 +1,18 @@
+{
+    "chats":{
+        "db_url":"mongodb://localhost:27017",
+        "db_name":"chat_db",
+        "db_collection":"chat_thread"
+    },
+    "user":{
+        "db_url":"localhost:3306",
+        "db_name":"durusu_user",
+        "db_table":"users"
+    },
+    "user_threads": {
+        "db_url":"localhost:3306",
+        "db_name":"durusu_user",
+        "db_table":"users_threads"
+    }
+
+}
